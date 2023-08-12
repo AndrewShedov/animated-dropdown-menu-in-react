@@ -17,9 +17,7 @@
   justify-content: center;
   align-items: center;
   color: #222;
-  border: 0;
   box-shadow: rgb(0 0 0 / 18%) 0.2px 0.2px 3px;
-  position: relative;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   transition: all 250ms ease;
@@ -32,7 +30,6 @@
     box-shadow: rgb(0 0 0 / 18%) 0.3px 0.3px 5px;
   }
 }
-
 
 .menu_list {
   width: 100%;
@@ -73,7 +70,6 @@
 
 .menu_listFadeOut {
   animation: fadeOut 0.3s forwards;
-
   opacity: 1;
 }
 
