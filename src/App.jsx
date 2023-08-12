@@ -1,4 +1,4 @@
-import Menu from "./components/menu/menu";
+import Menu from "./components/Menu";
 function App() {
   return (
     <div className="App">

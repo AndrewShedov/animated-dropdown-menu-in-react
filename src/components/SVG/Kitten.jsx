@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./kitten.module.css";
+import styles from "./Kitten.module.css";
 export default function Kitten() {
   return (
     <div className={styles.kitten}>
