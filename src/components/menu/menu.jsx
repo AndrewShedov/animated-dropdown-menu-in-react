@@ -52,7 +52,7 @@ export default function Menu() {
           <ul className={styles.menu_list}>
             <li>My profile</li>
             <li>Settings</li>
-            <li>Exit</li>
+            <li>Exit</li> 
           </ul>
         </div>
       )}
