@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Kitten.module.css";
 export default function Kitten() {
   return (
