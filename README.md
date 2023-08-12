@@ -3,4 +3,4 @@ In this example, onAnimationEnd is used, this is the event handler – animation
 For start:
 npm install
 npm run dev
-[Homepage]([https://babeljs.io/](https://shedov.top/animated-dropdown-menu-in-react/)
+[Homepage](https://shedov.top/animated-dropdown-menu-in-react/)
