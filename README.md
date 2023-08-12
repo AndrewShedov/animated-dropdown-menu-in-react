@@ -3,4 +3,4 @@ To create an animation, onAnimationEnd is used here, this is an event handler - 
 Start:\
 npm install\
 npm run dev\
-[Homepage](https://shedov.top/animated-dropdown-menu-in-react/)
+[Homepage](animated-dropdown-menu-in-react-using-onAnimationEnd)
