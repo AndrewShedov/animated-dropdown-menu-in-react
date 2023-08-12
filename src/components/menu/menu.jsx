@@ -4,7 +4,7 @@ import Kitten from "../svg/Kitten/index";
 export default function Menu() {
   const [showMenu, setShowMenu] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
-  const showMenuButton = (Visibility) => {
+  const buttonShowMenu = (Visibility) => {
     if (Visibility) {
       setShowMenu(true);
     } else {
@@ -28,8 +28,8 @@ export default function Menu() {
   });
   return (
     <div className={styles.menu_wrap}>
-      <div className={styles.menu} onClick={() => showMenuButton(!showMenu)}>
-        <Kitten />
+      <div className={styles.menu} onClick={() => buttonShowMenu(!showMenu)}>
+        <Kitten />   
       </div>
       {showMenu && (
         <div
