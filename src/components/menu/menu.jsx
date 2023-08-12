@@ -11,8 +11,8 @@ export default function Menu() {
       setFadeOut(true);
     }
   };
+  // Click tracking outside the menu
   const menuRef = useRef();
-  // Click outside the menu
   useEffect(() => {
     if (menuRef.current) {
       const handler = (e) => {
