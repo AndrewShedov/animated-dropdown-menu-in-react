@@ -28,16 +28,19 @@ export default function Menu() {
   });
   return (
     <div className={styles.menu_wrap}>
-      <div className={styles.menu} onClick={() => buttonShowMenu(!showMenu)}>
-        <Kitten />   
+      <div
+        className={styles.menu_button}
+        onClick={() => buttonShowMenu(!showMenu)}
+      >
+        <Kitten />
       </div>
       {showMenu && (
         <div
           ref={menuRef}
           className={
             fadeOut
-              ? `${styles.menu_list} ${styles.menu_listFadeOut}`
-              : `${styles.menu_list}`
+              ? `${styles.menu} ${styles.menu_fade_out}`
+              : `${styles.menu}`
           }
           onAnimationEnd={(e) => {
             if (e.animationName === styles.fadeOut) {
@@ -46,9 +49,11 @@ export default function Menu() {
             }
           }}
         >
-          <a>My profile</a>
-          <a>Settings</a>
-          <a>Exit</a>
+          <ul className={styles.menu_list}>
+            <li>My profile</li>
+            <li>Settings</li>
+            <li>Exit</li>
+          </ul>
         </div>
       )}
     </div>
