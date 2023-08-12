@@ -58,9 +58,6 @@
   cursor: pointer;
   transition: all 300ms ease;
   height: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 9px;
   margin-bottom: 9px;
 }
