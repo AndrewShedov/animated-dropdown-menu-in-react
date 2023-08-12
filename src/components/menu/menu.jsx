@@ -39,7 +39,7 @@ export default function Menu() {
           ref={menuRef}
           className={
             fadeOut
-              ? `${styles.menu} ${styles.menu_fade_out}`
+              ? `${styles.menu} ${styles.menu__fade_out}`
               : `${styles.menu}`
           }
           onAnimationEnd={(e) => {

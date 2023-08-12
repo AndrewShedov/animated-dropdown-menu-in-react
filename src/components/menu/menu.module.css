@@ -47,7 +47,9 @@
 }
 
 .menu_list li {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #222;
@@ -65,7 +67,7 @@
   }
 }
 
-.menu_fade_out {
+.menu__fade_out {
   animation: fadeOut 0.3s forwards;
   opacity: 1;
 }
