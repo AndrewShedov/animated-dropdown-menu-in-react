@@ -1,5 +1,5 @@
 import styles from "./menu.module.css";
-import { useState, useEffect, useRef } from "react";
+import {useState, useEffect, useRef} from "react";
 import Kitten from "../SVG/Kitten";
 export default function Menu() {
   const [showMenu, setShowMenu] = useState(false);
