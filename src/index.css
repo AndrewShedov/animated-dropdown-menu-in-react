@@ -31,9 +31,6 @@ ul {
   list-style: none;
 }
 
-* {
-  outline: 0 !important;
-}
 .App {
   width: 100%;
   display: flex;
