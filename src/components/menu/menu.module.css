@@ -33,10 +33,9 @@
 
 .menu {
   width: 100%;
-  max-width: 90px;
+  max-width: 100px;
   left: 0;
   right: 0;
-  padding: 5px;
   margin: auto;
   border-radius: 4px;
   position: absolute;
@@ -56,8 +55,8 @@
   cursor: pointer;
   transition: all 300ms ease;
   height: 25px;
-  margin-top: 9px;
-  margin-bottom: 9px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 @media (min-width: 1000px) {
