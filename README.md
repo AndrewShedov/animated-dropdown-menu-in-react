@@ -1,5 +1,5 @@
 ## Animated dropdown menu in React using - onAnimationEnd
-In this component, when creating an animation, onAnimationEnd is applied, this is the event handler - animationEnd, which is called when the CSS animation of the element is completed. This component does not use third party libraries for animation and when the menu is closed it is not in the DOM. 
+In this component, when creating animation, onAnimationEnd is used. onAnimationEnd is a handler for the animationEnd event, which is called when the CSS animation of an element ends. This component does not use third-party libraries for animation and when the menu is closed, it is not in the DOM.
 #### For start:
 #### npm install
 #### npm run dev
