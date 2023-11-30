@@ -5,13 +5,12 @@
   margin-left: 15px;
 }
 
-.menu_button {
+button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 7px;
   margin-bottom: 7px;
-  width: 100%;
-  max-width: 50px;
+  width: 50px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -22,10 +21,11 @@
   background-color: rgb(255, 255, 255);
   transition: all 250ms ease;
   cursor: pointer;
+  border: none;
 }
 
 @media (min-width: 1000px) {
-  .menu_button:hover {
+  button:hover {
     transition: all 250ms ease;
     box-shadow: rgb(0 0 0 / 18%) 0.3px 0.3px 5px;
   }

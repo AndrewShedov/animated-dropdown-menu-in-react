@@ -28,12 +28,11 @@ export default function Menu() {
   });
   return (
     <div className={styles.menu_wrap}>
-      <div
-        className={styles.menu_button}
+      <button
         onClick={() => buttonShowMenu(!showMenu)}
       >
         <Kitten />
-      </div>
+      </button>
       {showMenu && (
         <div
           ref={menuRef}
