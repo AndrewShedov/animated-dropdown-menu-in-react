@@ -75,6 +75,7 @@ button {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -84,6 +85,7 @@ button {
   from {
     opacity: 1;
   }
+
   to {
     opacity: 0;
   }
