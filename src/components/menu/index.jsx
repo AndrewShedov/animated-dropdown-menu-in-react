@@ -5,8 +5,8 @@ import Kitten from "../SVG/Kitten";
 export default function Menu() {
   const [showMenu, setShowMenu] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
-  const buttonShowMenu = (visibility) => {
-    if (visibility) {
+  const buttonShowMenu = (visibility1) => {
+    if (visibility1) {
       setShowMenu(true);
     } else {
       setFadeOut(true);
