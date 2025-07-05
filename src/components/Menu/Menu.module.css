@@ -1,0 +1,92 @@
+.menu_wrap {
+  width: 100%;
+  max-width: 200px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+  box-shadow: rgb(0 0 0 / 18%) 0.2px 0.2px 2.5px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  transition: all 250ms ease;
+  cursor: pointer;
+  border: none;
+}
+
+@media (min-width: 1000px) {
+  button:hover {
+    transition: all 250ms ease;
+    box-shadow: rgb(0 0 0 / 18%) 0.3px 0.3px 4.5px;
+  }
+}
+
+.menu {
+  width: 100%;
+  max-width: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 4px;
+  position: absolute;
+  animation: fadeIn 0.3s forwards;
+  opacity: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow:  0 4px 16px rgb(132 134 136 / 9%), 0 2px 2px rgb(138 140 143 / 10%);
+}
+
+.menu_list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #222;
+  cursor: pointer;
+  transition: all 300ms ease;
+  height: 25px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 1000px) {
+  .menu_list li:hover {
+    transition: all 300ms ease;
+    color: #545454;
+  }
+}
+
+.menu__fade_out {
+  animation: fadeOut 0.3s forwards;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

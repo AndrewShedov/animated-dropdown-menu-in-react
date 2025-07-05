@@ -1,0 +1,1 @@
+export { Kitten } from "./Kitten"
