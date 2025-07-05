@@ -1,2 +1,2 @@
-export { Menu } from "./Menu"
-export { Kitten } from "./Kitten"
+export { Menu } from "./Menu";
+export { Kitten } from "./Kitten";

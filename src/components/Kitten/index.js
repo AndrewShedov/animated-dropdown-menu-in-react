@@ -1,1 +1,1 @@
-export { Kitten } from "./Kitten"
+export { Kitten } from "./Kitten";
