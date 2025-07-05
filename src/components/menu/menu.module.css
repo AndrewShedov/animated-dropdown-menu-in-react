@@ -16,7 +16,7 @@ button {
   justify-content: center;
   align-items: center;
   color: #222;
-  box-shadow: rgb(0 0 0 / 18%) 0.2px 0.2px 3px;
+  box-shadow: rgb(0 0 0 / 18%) 0.2px 0.2px 2.5px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   transition: all 250ms ease;
@@ -27,7 +27,7 @@ button {
 @media (min-width: 1000px) {
   button:hover {
     transition: all 250ms ease;
-    box-shadow: rgb(0 0 0 / 18%) 0.3px 0.3px 5px;
+    box-shadow: rgb(0 0 0 / 18%) 0.3px 0.3px 4.5px;
   }
 }
 
@@ -42,7 +42,7 @@ button {
   animation: fadeIn 0.3s forwards;
   opacity: 0;
   background-color: rgb(255, 255, 255);
-  box-shadow: rgb(0 0 0 / 18%) 0.2px 0.2px 4px;
+  box-shadow:  0 4px 16px rgb(132 134 136 / 9%), 0 2px 2px rgb(138 140 143 / 10%);
 }
 
 .menu_list li {

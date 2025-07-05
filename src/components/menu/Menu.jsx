@@ -1,8 +1,13 @@
-import styles from "./menu.module.css";
-import { useState, useEffect, useRef } from "react";
-import Kitten from "../SVG/Kitten";
+import {
+  useState,
+  useEffect,
+  useRef
+} from "react";
 
-export default function Menu() {
+import { Kitten } from "../../components";
+import styles from "./Menu.module.css";
+
+export function Menu() {
   const [showMenu, setShowMenu] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
   const buttonShowMenu = (visibility) => {
@@ -12,7 +17,7 @@ export default function Menu() {
       setFadeOut(true);
     }
   };
-  
+
   // Click tracking outside the menu
   const menuRef = useRef();
   useEffect(() => {
@@ -28,7 +33,7 @@ export default function Menu() {
       };
     }
   });
-  
+
   return (
     <div className={styles.menu_wrap}>
       <button
