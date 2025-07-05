@@ -1,7 +1,12 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
+  "name": "animated-dropdown-menu-in-react",
+  "version": "1.0.0",
+  "author": {
+    "name": "Andrew Shedov",
+    "url": "https://shedov.top"
+  },
+  "homepage": "https://github.com/AndrewShedov/Animated-dropdown-menu-in-react",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
