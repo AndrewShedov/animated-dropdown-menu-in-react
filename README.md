@@ -4,4 +4,4 @@ In this component, when creating animation, onAnimationEnd is used. onAnimationE
 #### npm install
 #### npm run dev
 #### [Homepage](https://shedov.top/animated-dropdown-menu-in-react-using-onanimationend)
-#### [LIVE](https://animated-dropdown-menu-in-react-andrewshedov.vercel.app)
+#### [LIVE](https://animated-dropdown-menu-in-react.vercel.app/)
