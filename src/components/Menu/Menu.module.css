@@ -37,12 +37,15 @@ button {
   left: 0;
   right: 0;
   margin: auto;
-  border-radius: 4px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
   position: absolute;
   animation: fadeIn 0.3s forwards;
   opacity: 0;
   background-color: rgb(255, 255, 255);
-  box-shadow:  0 4px 16px rgb(132 134 136 / 9%), 0 2px 2px rgb(138 140 143 / 10%);
+  box-shadow: 0 4px 16px rgb(132 134 136 / 9%), 0 2px 2px rgb(138 140 143 / 10%);
 }
 
 .menu_list li {
