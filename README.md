@@ -4,11 +4,11 @@
 
 # Animated dropdown menu in React using - onAnimationEnd
 In this component, when creating animation, onAnimationEnd is used. onAnimationEnd is a handler for the animationEnd event, which is called when the CSS animation of an element ends. This component does not use third-party libraries for animation and when the menu is closed, it is not in the DOM.
-
+<br />
 <a href="https://animated-dropdown-menu-in-react.vercel.app/" target="_blank">
 <img src="https://raw.githubusercontent.com/AndrewShedov/animated-dropdown-menu-in-react/refs/heads/main/public/screenshot.webp" width="700" />
 </a>
-
+<br />
 #### For start:
 
 ```bash
