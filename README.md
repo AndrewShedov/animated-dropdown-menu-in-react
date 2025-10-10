@@ -11,7 +11,7 @@ In this component, when creating animation, onAnimationEnd is used. onAnimationE
 </a>
 <br>
 
-#### For start:
+#### How to Run:
 
 ```bash
 npm i
