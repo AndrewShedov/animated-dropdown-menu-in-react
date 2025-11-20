@@ -21,8 +21,7 @@ npm run dev
 <br>
 
 [![LIVE](https://img.shields.io/badge/LIVE-ff0000?style=for-the-badge)](https://animated-dropdown-menu-in-react.vercel.app/)
-[![Creation explanation](https://img.shields.io/badge/Creation_Explanation-black?style=for-the-badge)](https://shedov.top/animated-dropdown-menu-in-react-using-onanimationend)
-
+[![Creation explanation](https://img.shields.io/badge/Creation_Explanation-black?style=for-the-badge)](https://shedov.top/animated-dropdown-menu-in-react-using-onanimationend)<br/>
 [![SHEDOV.TOP](https://img.shields.io/badge/SHEDOV.TOP-black?style=for-the-badge)](https://shedov.top/) 
 [![CRYSTAL](https://img.shields.io/badge/CRYSTAL-black?style=for-the-badge)](https://crysty.ru/AndrewShedov)
 [![Discord](https://img.shields.io/badge/Discord-black?style=for-the-badge&logo=discord&color=black&logoColor=white)](https://discord.gg/ENB7RbxVZE)
